@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life Lessons XP Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="XP.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#gardening">Pathways</a></li>
+      <li><a href="#working-out">My Path</a></li>
+      <li><a href="#cooking">About</a></li>
+      <!-- Place the "Sign in" button within its own list item -->
+      <li><button id="signIn" type="button">Sign in</button></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Life Lessons XP Tracker</h1>
+
+    <!-- Gardening Section -->
+    <div class="xp-section">
+      <h2>Gardening</h2>
+      <p>Current XP: <span id="xpPoints">0</span></p>
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+      <button onclick="completeTask(50)">Plant a Seedling</button>
+      <button onclick="completeTask(100)">Water the Plants</button>
+      <button onclick="completeTask(75)">Weeding Session</button>
+      <button onclick="completeTask(100)">Harvest Produce</button>
+      <button onclick="completeTask(175)">Learning Session</button>
+
+      <button onclick="completeTask(20)">Complete Task</button>
+
+      <button onclick="clearProgress()">Clear Progress</button>
+    </div>
+    <!-- Other sections can follow a similar structure -->
+  </div>
+
+</body>
+</html>

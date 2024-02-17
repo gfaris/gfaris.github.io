@@ -1,0 +1,58 @@
+body {
+    font-family: "pasta_palazzo";
+    background-color: rgb(82, 51, 112);
+    text-align: center;
+  }
+
+nav {
+    background-color: #463838;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #111;
+  }
+
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    width: 0%;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  #signIn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  #welcomeText {
+    font-family: 'Anton';
+  }
+  
